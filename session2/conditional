@@ -1,0 +1,83 @@
+let age = 12;
+
+console.log("Age checker APP:");
+if (age >=17) {
+    console.log("You can create an ID Card");
+} else {
+    console.log("You can't create an ID");
+}
+console.log("Done");
+
+if (age >= 15) {
+    console.log("High School");
+} else if (age >= 12) {
+    console.log("Middle School");
+} else if (age >= 5) {
+    console.log("Elementary School");
+} else {
+    console.log("Not in School");
+}
+
+const grade = "b-";
+switch (grade.toUpperCase()) {
+    case "A":
+    case "A+":
+    case "A-":
+        console.log("Excelent Result!");
+        break;
+    case "B":
+    case "B+":
+    case "B-":
+        console.log("Great Result!");
+        break;
+    case "C":
+    case "C+":
+    case "C-":
+        console.log("Average result!");
+        break;
+    default:
+        console.log("Invalid Grade");
+}
+
+let text = Number(" ");
+
+if (!text) {
+    console.log("text is empty");
+} 
+
+let number = 8;
+if (number >= 8) {
+    console.log("number is greater than equal 8");
+}
+
+const name = "asd";
+if (name === "jaka" || name === "joko") {
+    console.log("name is not jaka or joko");
+}
+
+const isFalse = false;
+if (!isFalse) {
+    console.log("test");
+}
+
+const str = "ular kobra";
+
+if (str === "javascript") {
+    console.log("javascript");
+} else {
+    console.log("not javascript");
+}
+
+/*
+(condition) ? (value if true) : (value if false)
+*/
+
+console.log(str === "javascript" ? "javascript" : "not javascript");
+
+
+const txt = "asda";
+console.log(txt ? txt : "empty");
+
+
+
+
