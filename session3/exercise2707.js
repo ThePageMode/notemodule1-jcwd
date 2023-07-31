@@ -23,6 +23,7 @@ for (let i = 0; i < middle; i++ ) {
     const sisiKiri = word[i];
     const sisiKanan = word[word.length - 1 - i];
     console.log(sisiKiri)
+    
     console.log(sisiKanan)
 
     if (sisiKiri !== sisiKanan) {
