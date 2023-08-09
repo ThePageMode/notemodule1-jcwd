@@ -1,0 +1,26 @@
+
+    <h1 id="money">10000000 </h1>
+    <h1>asdsada</h1>
+    <h1>asdsada</h1>
+    <h1>asdsada</h1>
+    <h1>asdsada</h1>
+
+
+
+<script>
+  console.log(document.getElementsByTagName("h1"));
+    const target = document.getElementById("money");
+    const format = Intl.NumberFormat("ID-id").format;
+    const money = target.innerHTML;
+    const formatted = format(money)
+    target.innerHTML = formatted;
+
+    for (const item of document.getElementsByTagName("h1")) {
+        item.innerHTML = formatted;
+}
+
+
+const t = document.getElementById("money")
+const answer = window.confirm("Apakah Ade Ade kurem?");
+
+</script>
