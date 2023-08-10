@@ -1,12 +1,17 @@
 const Queue = require("./Queue");
 
-const q = newQueue();
+const q = new Queue();
+
+console.log("Add orders to queue.");
 //add queue data
-q.addQUeue("Sirsir");
-q.addQUeue("Kusus");
-q.addQUeue("Openg");
-q.addQUeue("Syusyu");
-q.addQUeue("Kipov");
-q.addQUeue("Sansan");
-q.printQueue();
-q.startProcess();
+q.addQueue("Tongkol");
+q.addQueue("Kuda Lumping");
+q.addQueue("Obeng");
+q.addQueue("Susu Pari");
+q.addQueue("Kuku Kuda");
+q.addQueue("Sate Bekicot");
+q.addQueue("Hansip Rebus");
+q.addQueue("Buaya Geprek Mozarella Truffle");
+
+
+//
